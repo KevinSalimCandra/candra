@@ -1,0 +1,67 @@
+/* styles.css */
+
+/* Navbar */
+.navbar {
+  background-color: #8acd88; /* Warna hijau tua */
+}
+
+.navbar-light .navbar-brand {
+  color: #f0f0f0; /* Warna putih */
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #333; /* Warna abu-abu gelap */
+}
+
+/* Header */
+.header {
+  background-color: #f0f0f0; /* Warna abu-abu muda */
+  text-align: center;
+  padding: 100px 0;
+}
+
+.header h1 {
+  color: #333; /* Warna abu-abu gelap */
+}
+
+/* Services */
+.services {
+  background-color: #f0f0f0; /* Warna abu-abu muda */
+  padding: 50px 0;
+}
+
+.services h2 {
+  text-align: center;
+  color: #333; /* Warna abu-abu gelap */
+}
+
+/* Service Cards */
+.service-card {
+  border: none;
+  cursor: pointer;
+  transition: box-shadow 0.3s;
+}
+
+.service-card:hover {
+  box-shadow: 0px 0px 10px #333; /* Efek shadow saat dihover */
+}
+
+/* Contact */
+.contact {
+  background-color: #8acd88; /* Warna hijau tua */
+  color: #f0f0f0; /* Warna putih */
+  text-align: center;
+  padding: 50px 0;
+}
+
+.contact h2 {
+  color: #f0f0f0; /* Warna putih */
+}
+
+/* Footer */
+.footer {
+  background-color: #333; /* Warna abu-abu gelap */
+  color: #f0f0f0; /* Warna putih */
+  text-align: center;
+  padding: 10px 0;
+}
